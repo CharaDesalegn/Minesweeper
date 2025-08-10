@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(182, 170, 161);
+    display: flex;
+    font-size: 1.5rem;
+}
+.changes{
+    display: grid;
+    /* margin: auto; */
+    justify-content: start;
+    /* text-align: center; */
+
+}
+
+#screen {
+    display: flex; /* Use Flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: flex-start; /* Align items to the start */
+    padding: 0; /* Remove any padding */
+    margin: 0; /* Remove any margin */
+    background-color: blue;
+    max-width: 900px;
+
+}
+
+#screen button {
+    height: 30px;
+    font-size: 2rem;
+    width: 30px;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    box-sizing: border-box; /* Ensure padding and border are included in the total width/height */
+}
+
+input {
+    width: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+p {
+    margin: 2px;
+    text-align: center;
+}

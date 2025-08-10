@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="screen"></div>
+
+    <div class="changes">
+        <button onclick="new_game()">New Game</button>
+        <p>Height</p>
+        <input id = "width" type="number" min="1" max="50" value="20">
+
+        <p>Bombs</p>
+        <input id = "bomb" type="number" min="1" max="200" value="20">
+        <p>Mark</p>
+        <input id="mark" type="checkbox">
+    </div>
+    
+    
+
+    <script src="utils.js"></script>
+    <script src="block.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
